@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.nio.file.Paths;
 
 public class MainTest {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         JLogger logger = new JLogger();
         logger.fine("JESUS IS LORD");
         logger.setLogFilePath(Paths.get("logging.txt"));
