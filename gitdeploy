@@ -1,0 +1,3 @@
+git add .
+git commit -m "Fxing Tests and Docs"
+git push github master

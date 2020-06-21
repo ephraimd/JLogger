@@ -1,5 +1,5 @@
 # JLogger
-An attempt at creating a pretty simple logger utility in Java. An attempt though
+An attempt at creating a pretty simple but blazing fast logger utility in Java. An attempt though
 
 ### Code
 ```java
@@ -31,7 +31,7 @@ logger.setConsoleStream(new PrintStream(new FileOutputStream(consoleLoggingFile.
 ```
 
 ### Internals
-JLogger's approach is to minimize the bottleneck involved in keeping logs to O(1) - bare minimum.
+JLogger's approach is to minimize the bottleneck involved in keeping logs to O(1) - bare minimum; while keeping the library as fast as possible
 The measures taken to ensure this are
 - Logs are kept in a ___LinkedList___ buffer and only written when the buffer reaches a predefined size. The size of this buffer can be specified with ___JLogger#setFileLogBufferSize___ method.
 - JLogger attaches a Hook to the JVM's shutdown routine that empties the log buffer into the file at the end. This primarily designed for log writing accuracy.
