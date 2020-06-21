@@ -1,0 +1,17 @@
+
+9
+java:S1148^"#Use a logger to log this exception.(Ç’Çê
+`
+java:S1128">Remove this unused import 'java.util.concurrent.ForkJoinPool'.(†¿ÞÖûÿÿÿÿ8©çÃé¬.
+:
+java:S1148Ê"#Use a logger to log this exception.(Ç’Çê
+{
+java:S2293-"YReplace the type specification in this constructor call with the diamond operator ("<>").(¤³¡ðøÿÿÿÿ8¨ˆ”ê¬.
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(Çö‰Ý
+P
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8¨ˆ”ê¬.
+9
+java:S1148M"#Use a logger to log this exception.(Ç’Çê
+>	java:S108m")Either remove or fill this block of code.(Ãôþ•
+Q
+java:S4719Ò":Replace Charset.forName() call with StandardCharsets.UTF_8(ïÅÇñ
